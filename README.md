@@ -14,10 +14,14 @@ Please add the following snippet to your project's maven setting to enforce thes
     <configuration>
      <additionalConfig>
       <file>
-        <name>.checkstyle</name>
-        <url>http://some.place.org/path/to/file</url>
+        <name>.settings/org.eclipse.jdt.core.prefs</name>
+        <url>https://raw.githubusercontent.com/weblyzard/eclipse-settings/master/settings/org.eclipse.jdt.core.prefs</url>
       </file>
-     </additionalConfig>
+      <file>
+        <name>.settings/org.eclipse.jdt.ui.prefs</name>
+        <url>https://raw.githubusercontent.com/weblyzard/eclipse-settings/master/settings/org.eclipse.jdt.ui.prefs</url>
+      </file>
+      </additionalConfig>
     </configuration>
 </plugin>
 ```
